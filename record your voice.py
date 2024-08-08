@@ -1,7 +1,7 @@
 import sounddevice as sd
 import wavio
 
-default_sample_rate = 44100  # in Hz
+default_sample_rate = 44100
 duration = float(input("Enter the recording duration in seconds: "))
 
 sample_rate_input = input(f"Enter the sampling rate in Hz (Press Enter to use default {default_sample_rate} Hz): ")
